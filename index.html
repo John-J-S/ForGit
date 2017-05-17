@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+    // function Promise (fn){
+    //     var self = this;
+    //     self.status = 'pending';
+    //     self.data = undefined;
+    //     function resovled(val){
+    //         self.status = 'resovled';
+    //         self.data = val;
+    //     }
+    //     function rejected(err){
+    //         self.status = 'rejected';
+    //         self.data = err;
+    //     }
+    //     fn(resovled,rejected);
+    // }
+    // Promise.prototype.then = function(onResovled,onRejected){
+    //     var self = this;
+    //     onResovled = type0f  ``````......
+    // }
+    // var p = new Promise(function(resovled,rejected){
+    //     rejected(20);
+    // }) ;
+    // console.log(p);
+var arr = [1,2,3];
+       var myIterator
+function* myGenerator(){
+    console.log("1");
+    yield 'hello';
+    console.log("2");
+    yield 'world';
+    console.log("3");
+    return 'ending';
+}
+var mg = myGenerator();
+console.log(mg.next());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            // var s = new Set([1,2,3]);
+            // s.forEach(function(val){
+            //     console.log(val);
+            // });
+            // var s = new Map([['name','zzz'],['sex','male']]);
+            // console.log(s);
+            // var arr = [['name','zzz'],['sex','male']];
+            // var s = new Set(arr);
+            // var m = new Map(s);
+            // var x = {a:111};
+            //     m.set(x,111);
+            //  console.log(m.Keys());
+
+           // var s = promise('Number', NaN );
+           // console.log(promise());
+           // $.ajax({
+           //     url: '/path/to/file',
+           //     type: 'default GET (Other values: POST)',
+           //     dataType: 'default: Intelligent Guess (Other values: xml, json, script, or html)',
+           //     data: {param1: 'value1'},
+           // })
+           // .done(function() {
+           //     console.log("success");
+           // })
+           // .fail(function() {
+           //     console.log("error");
+           // })
+           // .always(function() {
+           //     console.log("complete");
+           // });
+
+           // var p = new Promise(function(resolve,reject){
+           //  if(true){
+           //      resolve();
+           //  }
+//异步操作用其回调
+           // });
+           // p.then(function(){
+           //      console.log(1);
+           // },function(){
+           //      console.log(2);
+           // });
+
+           // function ajaxy(url,callback){
+           //      var xml = new XMLHttpRequest();
+           //      xml.open('GET',url);
+           //      xml.onreadystatechange = function(){
+           //          if(xml.readyState == 4& xml.status == 200){
+           //              callback(xml.responseText);
+           //          }else{
+           //              error('error');
+           //          }
+           //      }
+           // }
+
+            // function Ajax(url){
+            //     var promise = new Promise(function(resolve,reject){
+            //     var xml = new XMLHttpRequest();
+            //     xml.open('GET',url);
+            //     xml.onreadystatechange = function(){
+            //         if(xml.readyState == 4& xml.status == 200){
+            //             // callback(xml.responseText);
+            //             resove(xml.responseText);
+            //         }else{
+            //             // error('error');
+            //             reject('error');
+            //         }
+            //     }
+            //     xml.send();
+            //     });
+            //     return promise;
+            // };
+            // var dodo = Ajax('url');
+            // dodo.then(function(data){
+            //     console.log(data);
+            // },function(){
+            //     console.log('Error');
+            // });
+//promise回调应用》》very important for ES6;
+//promise.then().catch();
+
+//             var name = 'xxs'
+//             var obj ={
+//                 name,
+//                 a (){
+//                     console.log('a')
+//                 },
+
+//             }
+//             var obj1 = {
+//                 name,
+//                 b (){
+//                     console.log('b')
+//                 }
+//             }
+// Object.assign(obj,obj1); //浅拷贝，为什么在局部可用
+// Object.keys(obj);
+// function proto (){
+//         this.age  = 8;
+// }
+// var ob2 = new proto;
+
+
+// var demo = (a=1,b=2) => {
+//     return a+b;
+// }
+
+
+//  var insert = (value) => ({into:(array) => ({after:(afterValue) =>
+//     {
+//     array.splice(array.indexOf(afterValue) + 1,0,value);
+//         return array;
+// }
+// })})
+
+
+    // var num = Number('ss');
+    // document.write(typeof(num));
+
+         // var n = window.prompt();
+         // var len = parseInt(n);
+         // var a = 1 ,b = 1 ,num;
+         // var num = 1;
+         // for(var i = 1;i<=len;i++){
+         //    num *= i;
+         // }
+         // document.write(num);
+         // 112358
+         // if(len>2){
+         //    for(var i=3;i<len+1;i++){
+         //        num = a + b;
+         //        a = b;
+         //        b = num;
+         //    }
+         //    document.write(num);
+         // }
+         //
+         // var count = 0;
+         // for(var i=2;i<=100;i++){
+         //    for(var j=2;j<i;j++){
+         //        if(i%j==0){
+         //            count ++;
+         //        }
+         //    }
+         //    if(count==0) document.write(i);
+         //    count = 0;
+         // }
+
+    </script>
+</body>
+</html>
