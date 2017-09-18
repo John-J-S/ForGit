@@ -1,2 +1,2 @@
 # ForGit
-judt take my steps for tomorrow !
+just take my steps for tomorrow !
